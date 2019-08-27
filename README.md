@@ -12,14 +12,14 @@ This course is intended to be accessible for coding beginners, but is also open 
 ## Learning Modules
 
 ### Module 1 (4 weeks)
--September 7 – 28
--coding basics, libraries, packages, and command-line interaction in Python3
--Prerequisites: Must complete part 1 of “Learn How to Code” at https://www.codecademy.com/learn/learn-how-to-code. This should take ~2-3 hours, and you’ll share a screenshot with proof of completion in your application.
+- September 7 – 28
+- coding basics, libraries, packages, and command-line interaction in Python3
+- Prerequisites: Must complete part 1 of “Learn How to Code” at https://www.codecademy.com/learn/learn-how-to-code. This should take ~2-3 hours, and you’ll share a screenshot with proof of completion in your application.
 
 ### Module 2 (4 weeks)
--October 5 - 26
--breaking down designs and requirements, connecting services together, understanding existing code, using source control
--Prerequisites: Must complete parts 2-3 of “Learn How to Code” at https://www.codecademy.com/learn/learn-how-to-code. This should take 2-3 hours. You’ll complete this prerequisite during the first module.
+- October 5 - 26
+- breaking down designs and requirements, connecting services together, understanding existing code, using source control
+- Prerequisites: Must complete parts 2-3 of “Learn How to Code” at https://www.codecademy.com/learn/learn-how-to-code. This should take 2-3 hours. You’ll complete this prerequisite during the first module.
 
 ## Other Stuff
 
