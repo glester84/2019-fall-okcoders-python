@@ -55,7 +55,7 @@ __Composite__
 ## Operations
 - a special group of reserved words and other sequences
 - math (+ - * / % // **)
-- comparison (== != <> < > <= >=)
+- comparison (== != < > <= >=)
 - assignment (= += -= *= /= //= **=)
 - binary (& | ^ ~ << >>)
 
