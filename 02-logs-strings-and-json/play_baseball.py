@@ -1,7 +1,7 @@
 import random
 
 pitchers = ['Taylor', 'Jackson', 'Anderson', 'Thomas']
-batter = ['Smith', 'Jones', 'Johnson', 'Williams', 'Jones', 'Davis', 'Wilson', 'Miller', 'Moore']
+batters = ['Smith', 'Jones', 'Johnson', 'Williams', 'Jones', 'Davis', 'Wilson', 'Miller', 'Moore']
 
 log = open('batting.log', 'w+')
 
@@ -24,4 +24,4 @@ for x in range(10):
         result = '3B'
       else:
         result = 'HR'
-      log.write(f'{batter} {result} v {pitcher}')
+      log.write(f'{batter} {result} v {pitcher}\n')
