@@ -1,0 +1,25 @@
+[Setting: {name2}'s apartment]
+({name2} and {name1} are waiting for {name3}, so he can help them move {name1}'s stuff back into his parent's house)
+{name1}: I can't believe this!
+{name2}: Oh, it won't be for that long.
+{name1}: How can I do this?! How can I move back in with those {noun1}? Please, tell me! They're insane! You know that.
+{name2}: Hey, my parents are just as crazy as your parents.
+{name1}: How can you compare you parents to my parents?!
+{name2}: My father has never thrown anything out. Ever!
+{name1}: My father wears his {clothing1} in the pool! {clothing1}!
+{name2}: My mother has never set foot in a natural body of water.
+{name1}: (Showing {name2} up) Listen carefully. My mother has never laughed. Ever. Not a giggle, not a chuckle, not a tee-hee.. never went 'Ha!'
+{name2}: A smirk?
+{name1}: Maybe!.. And I'm moving back in there!
+{name2}: I told you I'd lend you the {noun2} for the rent.
+{name1}: No, no, no, no. Borrowing {noun2} from a friend is like {verb1}. It just completely changes the relationship.
+({name3} stumbles in)
+{name3}: Alright. I'm ready. (To {name1}) You know, I still don't understand - why do you want to move back in with your parents?
+{name1}: I don't want to! I'm outta {noun2}! I got {number1} {noun2} left in the bank.
+{name3}: Well, move in here.
+{name2}: (Stopping the notion) What's that?
+{name3}: Why doesn't he just move in here?
+{name1}: (Sarcastic) Yeah, yeah. I'm gonna move in with him. He doesn't even let you use the toilet!
+{name3}: You can move in with me, if you want.
+{name1}: (Sincerely) Thank you.. I, uh.. that might not work out.
+(Scene ends)
