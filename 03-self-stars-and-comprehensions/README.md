@@ -12,20 +12,20 @@
 1. Read and write dictionary comprehensions
 
 ## JSON encoding
-`import json`
-`json.loads()` -> load a string into an object
-`json.dumps()` -> dump an object to a string
-Cases where `my_obj != json.loads(json.dumps(my_obj))`
+`import json`\
+`json.loads()` -> load a string into an object\
+`json.dumps()` -> dump an object to a string\
+Cases where `my_obj != json.loads(json.dumps(my_obj))`\
 
 ## Pep8
-`pep8 baseball.py` -> lint a single file
-`pep8 *.py` -> lint all files matching wildcard
+`pep8 baseball.py` -> lint a single file\
+`pep8 *.py` -> lint all files matching wildcard\
 `pep8 .` lint a directory and all subdirectories
 
 ## Class vs. Object and when to use "self"
-A class definition says what a class is and what it can do.
-An object actually is that thing and can perform its actions.
-If a class "method" needs to work on the data, use self.
+A class definition says what a class is and what it can do.\
+An object actually is that thing and can perform its actions.\
+If a class "method" needs to work on the data, use self.\
 If a class "function" doesn't, self is not necessary.
 
 ## Arguments with names and defaults
@@ -45,15 +45,15 @@ If a class "function" doesn't, self is not necessary.
 Builds a list by applying some code to all items in something iterable
 -seems pretty simple but can be combined with other concepts to make powerful and/or complicated code
 -actually very efficient
-simple -> `names = [item.name for item in list_of_objects]`
-interesting -> `test_scores = [test.correct / test.total for test in graded_tests]`
-with condition(s) -> `qualified_values = [val for val in [1, 2, 3, 4, 5] if val > 2]`
-maybe too much -> `unwrapped = [val for group in [[1, 2, 3], [4, 5, 6]] for val in group]`
+simple -> `names = [item.name for item in list_of_objects]`\
+interesting -> `test_scores = [test.correct / test.total for test in graded_tests]`\
+with condition(s) -> `qualified_values = [val for val in [1, 2, 3, 4, 5] if val > 2]`\
+maybe too much -> `unwrapped = [val for group in [[1, 2, 3], [4, 5, 6]] for val in group]`\
 definitely too much -> `filtered = [val for group in [[1, 2, 3], [4, 5, 6]] if sum(group) > 10 for val in group]`
 
 ## Dictionary Comprehensions
 Builds a dictionary by applying some code to all items in something iterable
 -seems complex, but is basically the same as list comprehensions
-simple -> `names = {item.name: item for item in list_of_objects}`
-interesting -> `test_scores = {test.student: test.correct / test.total for test in graded_tests}`
+simple -> `names = {item.name: item for item in list_of_objects}`\
+interesting -> `test_scores = {test.student: test.correct / test.total for test in graded_tests}`\
 ...
