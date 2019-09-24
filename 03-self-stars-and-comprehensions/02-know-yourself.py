@@ -67,13 +67,10 @@ my_car.fill_with_gas(50) # if no names are provided, values fill from the left
 # results in gas=50, octane=89
 my_car.fill_with_gas(100, 91, 5, 10, 15) # extra non-keyword arguments go into *args
 # results in gas=100, octane=91, args=[5, 10, 15]
-my_car.fill_with_gas(octane=91, amount=100, 1, 2, 3) # we can mix named args and *args
-# results in gas=100, octane=91, args=[1, 2, 3]
-my_car.fill_with_gas(octane=93, 1, 2, 3) # be careful about making functions this way because of calling conventions like this
-# results in gas=1, octane=93, args=[2, 3]
+# my_car.fill_with_gas(octane=91, 1, 2, 3) # we can't put positional args after named ones
 
 # keyword arguments are optional
-car.air_up_tires()  # prints an empty dictionary
+my_car.air_up_tires()  # prints an empty dictionary
 # car.air_up_tires(34, 34, 34, 34)  # doesn't work because kwargs (**keyword args) require keywords
-car.air_up_tires(front_left=35, front_right=28, rear_left=48, rear_right=28)
+my_car.air_up_tires(front_left=35, front_right=28, rear_left=48, rear_right=28)
 # prints {'front_left': 35, 'front_right': 28, 'rear_left': 48, 'rear_right': 28}
