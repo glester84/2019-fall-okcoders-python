@@ -1,5 +1,12 @@
 <form action="." method="post">
-    Account: <input name="account"><br>
+    Account:
+    <!--<input name="account">-->
+    <select name="account">
+    {% for account in accounts %}
+      <option value="{{account.id}}">{{account.username}} ({{account.credits}})</option>
+    {% endfor %}
+    </select>
+    <br>
     Bingo Card ID: <input name="bingo_card_id"><br>
     Credits: <input name="credits"><br>
     <input type="submit">
