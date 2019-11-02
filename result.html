@@ -1,0 +1,14 @@
+<style>
+td {{hits}}
+{color:red;
+    background: green;
+}
+</style>
+<p>Player: {{account.username}}</p>
+<p>Credits: {{account.credits}}</p>
+<p>Card: {{bingocard.display_html}}</p>
+<p>Balls Called: {% include "bingocard.html" %}</p>
+<p>Win: {{total_win}}</p>
+<p>Pattern: {{patterns_won}}</p>
+
+<p><a href= '/'> Play Again?</a> </p>
